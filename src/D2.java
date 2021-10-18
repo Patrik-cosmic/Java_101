@@ -221,12 +221,26 @@ public class D2 {
         SmartPhone iphone12 = new SmartPhone(camera, display, cpu);
         System.out.println(iphone12);
 
-        SmartPhone iphone13 = iphone12;
-        iphone13.camera.setMegapixel(108);
-        System.out.println(iphone13);
+        SmartPhone iPhone13 = iphone12;
+        iPhone13.camera.setMegapixel(108);
+        System.out.println(iPhone13);
 
-        SmartPhone iphone13_mini = iphone13;
-        iphone13_mini.display.setSize(5);
-        System.out.println(iphone13_mini);
+        SmartPhone iPhone13Mini = iPhone13;
+        iPhone13Mini.display.setSize(5);
+        System.out.println(iPhone13Mini);
+
+        int _foo = 120;
+        System.out.println(_foo);
     }
 }
+
+/*
+
+Naming convention:
+Class : First Letter Caps, SmartPhone
+Object :  smartPhone
+Variables :first first_person
+Constants : CAPS
+Functions : toString(), nextInt(), next(), chatAt(), parseInt()
+
+ */
